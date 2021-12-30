@@ -1,2 +1,2 @@
-# todo_list_app
+# To-Do List App
 To-Do List App

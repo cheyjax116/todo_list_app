@@ -1,0 +1,78 @@
+body {
+    background-color: whitesmoke;
+    
+}
+
+h1 {
+    color: grey;
+
+    text-align: center;
+    font-size: 10vh;
+    margin-bottom: 2px;
+}
+
+
+h3 {
+    color: grey;
+
+    text-align: center;
+    font-size: 2vh;
+}
+
+input {
+    border-style: solid;
+    border-width: 2px;
+    accent-color: rgb(106, 136, 106);
+}
+
+
+.center-block {
+    display: table;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+
+
+#the_list{
+    list-style-type: none; 
+    list-style-position: outside;
+    font-size: 3vh;
+    text-indent: -1em;
+    padding-left: 15pt;
+    margin-left: 0;
+    word-wrap: break-word;
+
+
+}
+    
+
+div {
+    display: table; 
+    table-layout: fixed;
+    width: 350px;
+    margin: 0 auto;     
+  }
+
+
+
+#overflow{
+    width: 500px;
+ }  
+
+
+.strikethrough{
+    text-decoration: line-through;
+    text-decoration-color:rgb(106, 136, 106)
+    
+}
+
+.deleteButton{
+    margin-left: 5px;
+    background-color: rgb(173, 67, 67);
+    color: whitesmoke;
+    border: none;
+    font-size: 0.8em;
+}
+

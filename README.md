@@ -2,7 +2,7 @@
 Summary: 
 A simple To-Do application written in HTML, CSS and Javascript.
 
-Click here to test out the app! 
+<a href="cheyjax116.github.io/todo_list_app/">Click here to test out the app!</a> 
 
 <img width="614" alt="Vanilla To-Do List App Screenshot" src="https://user-images.githubusercontent.com/77046115/148148630-f81db298-c2a0-4f26-a4e2-026e2ab37afb.png">
 

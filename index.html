@@ -9,15 +9,21 @@
 
   <body>
     <h1>To-Do List</h1>
-    <h3 id="toggleHide">Enter your first to-do and press "Enter"</h3>
+    <h3 id="toggleHide">Enter your first to-do and press "Enter" or click the "Submit" button</h3>
     <div>
-      <input type="text" id="entry" placeholder="e.g Pratice Guitar" size="50"
-      onkeypress="return keyPressToDo(event)"">
+      <form id="form">
+
+        <input type="text" id="entry" placeholder="e.g Pratice Guitar" size="30"
+        />
+  
+        <button id="todoInput" type="button">Submit</button>
+
+      </form>
 
       <ul id="the_list"></ul>
     </div>
 
-    <button class="center-block" onclick="clearList()">CLEAR LIST</button>
+    <button id="clearListButton" class="center-block">CLEAR LIST</button>
 
     <script src="script.js"></script>
   </body>

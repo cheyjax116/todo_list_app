@@ -1,4 +1,13 @@
-function addToDo() {
+const submitButton = document.getElementById("todoInput");
+const clearListButton = document.getElementById("clearListButton");
+const form = document.getElementById("form");
+
+submitButton.addEventListener('click',addToDo);
+form.addEventListener("submit", addToDo);
+clearListButton.addEventListener("click", clearList);
+
+function addToDo(event) {
+  event.preventDefault();
   let list = document.getElementById("the_list");
   let entry = document.getElementById("entry");
   let item = document.createElement("li");
@@ -39,14 +48,9 @@ function addToDo() {
     }
     checkList();
   });
+  form.reset()
 }
 
-function keyPressToDo(event) {
-  if (event.keyCode == 13) {
-    addToDo();
-    clearTextField();
-  }
-}
 
 function clearList() {
   let list = document.getElementById("the_list");
@@ -57,9 +61,6 @@ function clearList() {
   checkList();
 }
 
-function clearTextField() {
-  document.getElementById("entry").value = "";
-}
 
 function checkList() {
   let list = document.getElementById("the_list");
